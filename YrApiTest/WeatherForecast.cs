@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace YrApiTest {
     internal class WeatherForecast {
-        public string type { get; set; }
-        public Geometry geometry { get; set; }
-        public Properties properties { get; set; }
+        public WeatherForecast(WeatherForecastDeserializable rawForecast)
+        {
+
+        }
     }
 }

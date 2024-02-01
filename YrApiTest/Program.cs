@@ -156,8 +156,8 @@ namespace YrApiTest {
   }
 }
 ";
-                    WeatherForecast? forecast = JsonSerializer.Deserialize<WeatherForecast>(responseBody);
-                    Console.WriteLine(forecast.updated_at);
+                    WeatherForecastDeserializable? forecast = JsonSerializer.Deserialize<WeatherForecastDeserializable>(responseBody);
+                    Console.WriteLine(forecast.properties.meta.updated_at);
                 }
                 catch (Exception e)
                 {
