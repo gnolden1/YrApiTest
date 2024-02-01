@@ -83,7 +83,7 @@ namespace YrApiTest {
     }
 
     public class Details2 {
-        public int precipitation_amount { get; set; }
+        public float precipitation_amount { get; set; }
     }
 
     public class Next_6_Hours {
