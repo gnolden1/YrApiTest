@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace YrApiTest {
     internal class WeatherForecast {
-        public DateTimeOffset updated_at { get; set; }
-        public double[] coordinates { get; set; }
-        public List<TimePoint> timeseries { get; set; }
+        public string type { get; set; }
+        public Geometry geometry { get; set; }
+        public Properties properties { get; set; }
     }
 }

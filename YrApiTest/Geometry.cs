@@ -5,8 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace YrApiTest {
-    internal class TimePoint {
-        public string time { get; set; }
-        public Data data { get; set; }
+    internal class Geometry {
+        public string type { get; set; }
+        public double[] coordinates { get; set; }
     }
 }
